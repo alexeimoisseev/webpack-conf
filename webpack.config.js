@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: path.join(process.cwd(), 'src'),
+    entry: process.cwd() + '/src',
     output: {
         path: path.join(process.cwd(), 'build'),
         filename: 'index.js'
